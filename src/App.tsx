@@ -24,7 +24,7 @@ export default function App() {
   const [result, setResult] = useState<string | null>(null);
   const onSubmit = () => {
     const apiUrl =
-      "https://script.google.com/macros/s/AKfycbx3yO-E0ha9Qdn4aRP_INxdVQtlz7uYHGTDod-tTPmW2pZG7Wmu6Yi13zFBFUnnv_ce/exec?prompt=" +
+      "https://script.google.com/macros/s/AKfycbxyJXvz_6_g46Uu4LTAiGRPooKliAMP48hz1GJh4wRDFzNehqjyjia2rINTbNr0oBWj/exec" +
       encodeURIComponent(input);
     console.log(apiUrl);
     setPrompt(input);
